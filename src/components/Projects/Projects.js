@@ -8,6 +8,7 @@ import disney from "../../Assets/disney.jpg";
 import BookMania from "../../Assets/BookMania.jpg";
 
 function Projects() {
+  
   return (
     <Container fluid className="project-section">
       <Particle />
