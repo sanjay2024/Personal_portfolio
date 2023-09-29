@@ -9,7 +9,8 @@ import {
   DiJava,
   DiMysql,
   DiCss3,
-  DiHtml5
+  DiHtml5,
+  DiPostgresql
 } from "react-icons/di";
 import { SiFirebase, SiTypescript  } from "react-icons/si";
 
@@ -40,6 +41,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
